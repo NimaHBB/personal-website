@@ -1,48 +1,73 @@
 html {
-  background-color: rgba(233, 233, 233, 0.795);
 }
 body {
-  background-color: rgba(255, 255, 255, 0.795);
-  max-width: 900px;
+  background-color: rgba(233, 233, 233, 0.795);
+  max-width: 1000px;
   margin: auto;
-  padding: 2%;
+  margin-top: 20px;
+}
+main {
+  background-color: rgb(255, 255, 255);
+}
+.mainPanel {
+  padding: 0 4%;
+  /* padding: 0 2% 0 2%; ist gleich wie obene */
 }
 .menuIcon {
+  margin-top: 4px;
+  margin-left: 4%;
   width: 25px;
   height: 3px;
   background-color: black;
-  margin: 4px 0;
 }
 .menuIcon :hover {
   nav-down: auto;
 }
+nav {
+  margin-top: 10px;
+  margin-left: 4%;
+}
 header {
   display: flex;
-  height: 70px;
+  height: 60px;
   justify-content: center;
 }
+img {
+  margin-left: 4%;
+
+  max-width: 90%;
+}
 section {
-  width: 50%;
+  min-width: 380px;
+  max-width: 450px;
   margin-top: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 233);
   box-shadow: 0px 0px 8px rgb(175, 175, 175);
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 .abilities {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.abilities2 {
+  padding: 20px;
   display: flex;
   gap: 20px;
   justify-content: space-between;
-}
-.abilities2 {
-  padding: 20px 20px 20px 20px;
-  display: flex;
-  gap: 20px;
-  justify-content: flex-start;
   flex-wrap: wrap;
 }
-section h2 {
+section h3 {
   padding-left: 20px;
 }
 section div label {
   size: 12px;
+}
+.contact {
+  padding-left: 4%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
