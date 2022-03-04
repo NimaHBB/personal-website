@@ -42,18 +42,23 @@ img {
   border-radius: 20px;
 }
 .aboutMe {
-  min-width: 370px;
-  margin: 0 40px;
-  background-color: rgb(255, 255, 233);
+  /* min-width: 400px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 5% 0 5%;
+  min-width: 380px;
+  max-width: 760px;
+
+  background-color: rgb(218, 255, 170);
   box-shadow: 5px 5px 12px rgb(175, 175, 175);
   border-radius: 5px;
-  padding: 2%;
+  padding: 20px;
 }
 section {
-  min-width: 370px;
-  max-width: 450px;
+  width: 400px;
   margin-top: 20px;
-  background-color: rgb(255, 255, 233);
+  background-color: rgb(241, 241, 241);
   box-shadow: 5px 5px 12px rgb(175, 175, 175);
   border-radius: 5px;
 }
@@ -62,7 +67,6 @@ section {
   min-width: 50px;
   max-width: 350px;
   background-color: rgb(194, 251, 255);
-
   border-radius: 2px;
   padding: 9px 3px 0px 3px;
   margin: auto;
@@ -70,17 +74,14 @@ section {
 .abilities {
   padding-left: 5px;
   padding-right: 5px;
+  gap: 4px;
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
 .abilities2 {
-  padding: 20px;
-  display: flex;
+  padding: 0 0 20px 20px;
   gap: 20px;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 section h3 {
