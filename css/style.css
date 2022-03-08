@@ -108,13 +108,12 @@ footer {
   width: 100%;
   margin: 0 auto;
   padding-top: 2px;
-  font-size: 14px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgb(206, 206, 206, 0.5);
+  background-color: rgb(206, 206, 206, 0.7);
 }
 footer p {
   margin: 10px 20px 10px 20px;
-  color: rgb(25, 26, 25);
+  color: rgb(0, 0, 0);
 }
